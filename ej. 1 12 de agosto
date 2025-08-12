@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DCI-alxogm/me2025-clase-rocillorn2021-create/blob/main/ej.%201%2012%20de%20agosto\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "3GudCVpAgGpm",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "085d4728-f23e-473f-f7c1-f252dce3d343"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\u001b[01m\u001b[Kcc1:\u001b[m\u001b[K \u001b[01;31m\u001b[Kfatal error: \u001b[m\u001b[Kagosto.c: No such file or directory\n",
+            "compilation terminated.\n"
+          ]
+        }
+      ],
+      "source": [
+        "!gcc ej 1. 12 de agosto.c  -lm -o ej. 1. 12 de agosto.out"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!./ej 1. 12 de agosto.out"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xQWM8bZOipfx",
+        "outputId": "9604b3a7-a6c6-43a4-dcd7-56a228f5fd98"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x\t x^2 \t log(x+1)\t exp(x)+cos(x)\n",
+            "1.000000 1.000000 0.301030 4.6660012.000000 4.000000 0.477121 4.8736993.000000 9.000000 0.602060 7.4633734.000000 16.000000 0.698970 28.3990695.000000 25.000000 0.778151 197.090337"
+          ]
+        }
+      ]
+    }
+  ]
+}
